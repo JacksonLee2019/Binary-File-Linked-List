@@ -1,0 +1,39 @@
+create list1 2 4
+insert list1 2 4 10 20 tom 30 40 sue 10 5 sam
+print list1 2 4
+close list1 2 4
+reuse list1 2 4
+insert list1 2 4 10 20 tim
+print list1 2 4
+create list2 4 8
+insert list2 4 8 1 2 3 4 apple 1 2 3 4 pear 1 2 3 4 orange
+print list2 4 8
+find list1 2 4 10 20
+remove list1 2 4 10 5
+print list1 2 4
+close list1 2 4
+close list2 4 8
+reuse list2 4 8
+reuse list1 2 4
+print list1 2 4
+print list2 4 8
+find list2 4 8 1 2 3 4
+remove list2 4 8 1 2 3 4
+insert list2 4 8 5 6 7 8 grape
+print list2 4 8
+close list1 2 4
+close list2 4 8
+create list3 5 11
+reuse list2 4 8
+reuse list1 2 4
+insert list3 5 11 1 2 3 4 5 twain 1 2 3 4 6 joyce 1 2 3 4 7 chekhov 1 2 3 4 8 eliot
+print list1 2 4
+print list2 4 8
+print list3 5 11
+remove list3 5 11 1 2 3 4 5
+remove list3 5 11 1 2 3 4 8
+find list3 5 11 1 2 3 4 5
+print list3 5 11
+close list3 5 11
+close list2 4 8
+close list1 2 4
